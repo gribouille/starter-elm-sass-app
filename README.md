@@ -1,5 +1,5 @@
 # starter-elm-sass
-My template project for ELM / SASS projects.
+Project template for ELM / SASS front application.
 
 
 ## Objectives
@@ -7,12 +7,11 @@ My template project for ELM / SASS projects.
 * no external dependencies (no npm -g)
 * ELM 0.18
 * SASS
+* UIKit
 * elm-test
 * hot reloading development server
 * simple webpack configuration file
 * separated examples
-
-
 
 
 ## Usage
@@ -26,12 +25,8 @@ $ npm run dev
 
 Open [localhost:8080](http://localhost:8080).
 
-Basic TodoList viewer example:
-
-![example](./screen.png)
 
 To build a production release to the `dist` folder:
-
 
 ```shell
 $ npm i
@@ -51,38 +46,13 @@ To run the tests:
 $ npm run test
 ```
 
-## Structure
-
-```
-starter-elm-sass
-├── elm-package.json
-├── examples
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── index.js
-│   └── src
-│       └── Example.elm
-├── LICENSE
-├── package.json
-├── package-lock.json
-├── README.md
-├── src
-│   └── App.elm
-├── styles
-│   ├── all.scss
-│   ├── colors.scss
-│   └── mixins.scss
-├── tests
-│   ├── elm-package.json
-│   └── TestApp.elm
-└── webpack.config.js
-```
 
 ## References
 
+* [uikit](https://getuikit.com)
 * [elm-loader](https://github.com/elm-community/elm-webpack-loader)
 * [elm-webpack-starter](https://github.com/elm-community/elm-webpack-starter)
 
 ## License
 
-This project is licensed under [MIT](./LICENSE).
+This project is licensed under [Mozilla Public License Version 2.0](./LICENSE).
